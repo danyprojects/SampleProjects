@@ -1,0 +1,14 @@
+{
+    "Auras": [
+        {
+            "mask": 32768,
+            "radius": 5,
+            "_flags": 0
+        },
+        {
+            "mask": 32768,
+            "radius": 2,
+            "_flags": 3
+        }
+    ]
+}

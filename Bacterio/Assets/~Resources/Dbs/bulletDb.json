@@ -1,0 +1,70 @@
+{
+    "Bullets": [
+        {
+            "shootAttribute": 1,
+            "movementAttribute": 1,
+            "hitAttribute": 1,
+            "moveSpeed": 7,
+            "maxHits": 0,
+            "reloadTime": 333,
+            "hitDelay": 333,
+            "burstConfig": {
+                "burstMax": 0,
+                "burstCooldown": 0
+            },
+            "clusterConfig": {
+                "clusterShape": 0,
+                "clusterSize": 0
+            },
+            "rotationConfig": {
+                "rotationSpeed": 0.0,
+                "waveSpeed": 0.0,
+                "maxAngle": 0
+            }
+        },
+        {
+            "shootAttribute": 6,
+            "movementAttribute": 34,
+            "hitAttribute": 12,
+            "moveSpeed": 5,
+            "maxHits": 3,
+            "reloadTime": 100,
+            "hitDelay": 100,
+            "burstConfig": {
+                "burstMax": 2,
+                "burstCooldown": 750
+            },
+            "clusterConfig": {
+                "clusterShape": 0,
+                "clusterSize": 3
+            },
+            "rotationConfig": {
+                "rotationSpeed": 100.0,
+                "waveSpeed": 0.5,
+                "maxAngle": 45
+            }
+        },
+        {
+            "shootAttribute": 6,
+            "movementAttribute": 33,
+            "hitAttribute": 10,
+            "moveSpeed": 10,
+            "maxHits": 3,
+            "reloadTime": 150,
+            "hitDelay": 333,
+            "burstConfig": {
+                "burstMax": 2,
+                "burstCooldown": 500
+            },
+            "clusterConfig": {
+                "clusterShape": 0,
+                "clusterSize": 3
+            },
+            "rotationConfig": {
+                "rotationSpeed": 300.0,
+                "waveSpeed": 0.5,
+                "maxAngle": 45
+            }
+        }
+    ]
+}

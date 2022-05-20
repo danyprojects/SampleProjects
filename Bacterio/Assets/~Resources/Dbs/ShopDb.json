@@ -1,0 +1,22 @@
+{
+    "ShopItems": [
+        {
+            "name": "Heal",
+            "price": 100,
+            "multiplier": 50,
+            "limit": 32767
+        },
+        {
+            "name": "Life",
+            "price": 500,
+            "multiplier": 200,
+            "limit": 2
+        },
+        {
+            "name": "Attack",
+            "price": 50,
+            "multiplier": 100,
+            "limit": 10
+        }
+    ]
+}

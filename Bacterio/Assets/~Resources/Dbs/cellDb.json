@@ -1,0 +1,11 @@
+{
+    "Cells": [
+        {
+            "bulletDbId": 1,
+            "maxHp": 100,
+            "moveSpeed": 3,
+            "atk": 10,
+            "def": 5
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "Structures": [
+        {
+            "_pathNodes": [
+                {
+                    "position": {
+                        "x": -0.8299999833106995,
+                        "y": 0.45099976658821108
+                    },
+                    "connections": [
+                        2,
+                        1
+                    ]
+                },
+                {
+                    "position": {
+                        "x": 0.7399994134902954,
+                        "y": 0.5110000371932983
+                    },
+                    "connections": [
+                        0,
+                        3
+                    ]
+                },
+                {
+                    "position": {
+                        "x": -0.33000001311302187,
+                        "y": -0.5489984154701233
+                    },
+                    "connections": [
+                        0,
+                        3
+                    ]
+                },
+                {
+                    "position": {
+                        "x": 0.3900006115436554,
+                        "y": -0.569000244140625
+                    },
+                    "connections": [
+                        1,
+                        2
+                    ]
+                }
+            ],
+            "_hasTerritory": false,
+			"_isSpawner":false,
+            "_spriteName": "Pictoicon_Life"
+        },
+        {
+            "_pathNodes": [
+                {
+                    "position": {
+                        "x": -0.8999999761581421,
+                        "y": -0.5089987516403198
+                    },
+                    "connections": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.7310003638267517
+                    },
+                    "connections": [
+                        0,
+                        2
+                    ]
+                },
+                {
+                    "position": {
+                        "x": 0.8650006055831909,
+                        "y": -0.515000581741333
+                    },
+                    "connections": [
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "_hasTerritory": true,
+			"_isSpawner":true,
+            "_spriteName": "Pictoicon_Alert"
+        }
+    ],
+    "Meshes": [
+        "Deformed_0",
+        "Deformed_1",
+        "Deformed_2"
+    ]
+}

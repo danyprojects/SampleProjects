@@ -1,0 +1,9 @@
+{
+    "Traps": [
+        {
+            "trapType": 0,
+            "radius": 2.0,
+            "multiplier": 300
+        }
+    ]
+}
