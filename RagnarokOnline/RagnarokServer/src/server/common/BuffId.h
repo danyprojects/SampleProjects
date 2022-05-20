@@ -1,0 +1,130 @@
+#pragma once
+
+#include <cstdint>
+
+enum class BuffId : uint16_t
+{
+	//Buffs with icons go here
+	FirstBuff = 0,
+
+	Sit = FirstBuff,
+	Arrow,
+	AspdBuff,
+	ExpBuff,
+	ItemBuff,
+	FoodStr,
+	FoodAgi,
+	FoodVit,
+	FoodDex,
+	FoodLuk,
+	TrickDead,
+
+	Blessing,
+	IncreaseAgi,
+	Angelus,
+	Aspersio,
+	Gloria,
+	KyrieEleison,
+	ImpositioManus,
+	LexAeterna,
+	Magnificat,
+	BenedictioSacramentio,
+	Assumptio,
+	SafetyWall,
+	Pneuma,
+	Basilica,
+	SteelBody,
+	CriticalExplosion,
+
+	AttentionConcentrate,
+	Falcon,
+	TrueSight,
+	WindWalk,
+	SongHp,
+	SongAgi,
+	SongMatk,
+	SongDef,
+	SongMdef,
+	SongExp,
+	LokisVeil,
+	SongReserved1,
+	SongReserved2,
+	SongReserved3,
+	SongReserved4,
+	SongReserved5,
+	SongReserved6,
+	MarionetteControl,
+
+	Cloaking,
+	Hiding,
+	EnchantPoison,
+	EnchantDeadlyPoison,
+
+	EnergyCoat,
+	StoneCurse,
+
+	EndowEarth,
+	EndowFire,
+	EndowWater,
+	EndowWind,
+	Deluge,
+	Volcano,
+	ViolentGale,
+	MagicRod,
+	LandProtector,
+
+	Parry,
+	RejectSword,
+	AutoCounter,
+	Endure,
+	Provoke,
+	Peco,
+	TwoHandQuicken,
+	TensionRelax,
+	AutoGuard,
+	ReflectShield,
+	Defender,
+	Providence,
+
+	LoudExclamation,
+	AdrenalineRush,
+	MaximizePower,
+	OverThrust,
+	WeaponPerfection,
+	CartBoost,
+	ChemicalArmor,
+	ChemicalHelm,
+	ChemicalShield,
+	ChemicalWeapon,
+
+	Kaahi,
+	Kaizel,
+	Kaupe,
+	MysticAmplification,
+
+	FirstDebuff,
+
+	//Debuffs with icons go here
+	Weight50 = FirstDebuff,
+	Weight90,
+
+	Quagmire,
+
+	Bleeding,
+	Sleep,
+	Stun,
+	Freeze,
+	CriticalWounds,
+	DecreaseAgi,
+	SlowCast,
+
+	DropArmor,
+	DropHelm,
+	DropShield,
+	DropWeapon,
+
+	MindBreaker,
+	HellsPower,
+	Last = HellsPower,
+	None = static_cast<uint16_t>(-1)
+};

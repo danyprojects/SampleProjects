@@ -1,0 +1,20 @@
+﻿cmake_minimum_required (VERSION 3.2)
+
+include_directories(
+	${CMAKE_CURRENT_SOURCE_DIR}
+)
+
+set(SCRIPT_HEADERS 
+	"${CMAKE_CURRENT_SOURCE_DIR}/TriggerEffects.h"
+	"${CMAKE_CURRENT_SOURCE_DIR}/ItemScripts.h"
+	"${CMAKE_CURRENT_SOURCE_DIR}/NpcScripts.h"
+PARENT_SCOPE)
+
+set(SCRIPT_SOURCES 
+	"${CMAKE_CURRENT_SOURCE_DIR}/TriggerEffects.cpp"
+	"${CMAKE_CURRENT_SOURCE_DIR}/ItemScripts.cpp"
+	"${CMAKE_CURRENT_SOURCE_DIR}/NpcScripts.cpp"
+	"${CMAKE_CURRENT_SOURCE_DIR}/NpcCommonMethods.cpp"
+PARENT_SCOPE)
+
+set(RAGNAROK_SERVER_TEST_SOURCES ${RAGNAROK_SERVER_TEST_SOURCES} PARENT_SCOPE)

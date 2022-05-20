@@ -1,0 +1,17 @@
+﻿cmake_minimum_required (VERSION 3.2)
+
+include_directories(
+	${CMAKE_CURRENT_SOURCE_DIR}
+)
+
+set(REPOSITORIES_HEADERS 
+	"${CMAKE_CURRENT_SOURCE_DIR}/CharacterRepository.h"
+	"${CMAKE_CURRENT_SOURCE_DIR}/GuildRepository.h"
+	"${CMAKE_CURRENT_SOURCE_DIR}/PartyRepository.h" PARENT_SCOPE)
+
+set(REPOSITORIES_SOURCES 
+	"${CMAKE_CURRENT_SOURCE_DIR}/CharacterRepository.cpp"
+	"${CMAKE_CURRENT_SOURCE_DIR}/GuildRepository.cpp" 
+	"${CMAKE_CURRENT_SOURCE_DIR}/PartyRepository.cpp" PARENT_SCOPE)
+
+set(RAGNAROK_SERVER_TEST_SOURCES ${RAGNAROK_SERVER_TEST_SOURCES} PARENT_SCOPE)
